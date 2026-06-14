@@ -18,7 +18,7 @@ public class DataTasks extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(DataTasks.class.getName());
 
     // =========================================================
-    // WARNA PALETTE (Minimalis Putih Profesional)
+    // WARNA PALETTE
     // =========================================================
     private static final Color BG_WHITE      = new Color(0xFFFFFF);
     private static final Color BG_SURFACE    = new Color(0xF8F8F8);
@@ -327,7 +327,7 @@ public class DataTasks extends javax.swing.JFrame {
         txtDeadline      = new JTextField();
         lblDeadlineHint  = new JLabel("contoh: 2026-06-30");
         lblFilter        = new JLabel("Filter:");
-        cbFilterKategori = new JComboBox<>(new String[]{"Semua", "Kuliah", "Project", "Lab", "Pribadi"});
+        cbFilterKategori = new JComboBox<>(new String[]{"Semua", "Kuliah", "Project", "Pribadi"});
         btnFilter        = new JButton("Filter");
         btnSelesai       = new JButton("Tandai Selesai");
         btnHapus         = new JButton("Hapus Task");
